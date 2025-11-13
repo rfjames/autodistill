@@ -3,6 +3,7 @@ import os
 
 AUTODISTILL_MODULES = [
     ("rfdetr", "RFDETRBase"),
+    ("rfdetr-seg", "RFDETRSegPreview"),
     ("grounded_sam", "GroundedSAM"),
     ("grounding_dino", "GroundingDINO"),
     ("yolov8", "YOLOv8", "yolov8n.pt"),
