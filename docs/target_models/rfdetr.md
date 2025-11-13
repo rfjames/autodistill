@@ -4,9 +4,7 @@
 
 # What is RF-DETR?
 
-This repository contains the code supporting the RF-DETR target model for use with [Autodistill](https://github.com/autodistill/autodistill).
-
-[RF-DETR](https://github.com/roboflow/rf-detr) is a real-time, transformer-based object detection and segmentation model developed by Roboflow and released under the Apache 2.0 license.
+[RF-DETR](https://github.com/roboflow/rf-detr) is a real-time, transformer-based object detection and segmentation model developed by Roboflow and released under the Apache 2.0 license. The model architecture is discussed in the "[RF-DETR: Neural Architecture Search for Real-Time Detection Transformers](https://arxiv.org/abs/2511.09554)" paper.
 
 RF-DETR-N outperforms YOLO11-N by 10 mAP points on the Microsoft COCO benchmark while running faster at inference. On RF100-VL, RF-DETR achieves state-of-the-art results, with RF-DETR-M beating YOLO11-M by an average of 5 mAP points across aerial datasets including drone, satellite, and radar.
 
